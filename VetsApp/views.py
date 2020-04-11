@@ -20,7 +20,7 @@ def vets(request):
         "data": obj
     }
 
-    return render(request, 'vets.html', context)
+    return render(request, 'vets/vets.html', context)
 
 
 def signup(request):
@@ -29,4 +29,4 @@ def signup(request):
         "name": "SignUP"
     }
 
-    return render(request, 'signup.html', context)
+    return render(request, 'signup/signup.html', context)

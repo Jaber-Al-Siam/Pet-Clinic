@@ -1,7 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b56f2d70-8196-4e3c-8391-99853966d44a" name="Default Changelist" comment="" />
+    <list default="true" id="b56f2d70-8196-4e3c-8391-99853966d44a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Template/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/vets/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/Template/vets/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/vets/navigation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/vets/vets.html" beforeDir="false" afterPath="$PROJECT_DIR$/Template/vets/vets.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VetsApp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/VetsApp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VetsApp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/VetsApp/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,10 +37,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1aLF0WLrjX2uLWKtSNecQXo53l1" />
   <component name="ProjectViewState">
@@ -24,6 +54,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -48,11 +79,23 @@
       <workItem from="1586506807643" duration="9626000" />
       <workItem from="1586518876918" duration="10821000" />
       <workItem from="1586539547908" duration="349000" />
+      <workItem from="1586610728855" duration="3012000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="213" y="119" key="FileChooserDialogImpl" timestamp="1586534128516">
