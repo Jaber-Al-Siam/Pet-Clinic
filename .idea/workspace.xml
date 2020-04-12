@@ -19,7 +19,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b56f2d70-8196-4e3c-8391-99853966d44a" name="Default Changelist" comment="workspace file" />
+    <list default="true" id="b56f2d70-8196-4e3c-8391-99853966d44a" name="Default Changelist" comment="workspace file">
+      <change afterPath="$PROJECT_DIR$/static/vets/CSS/vets.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PetClinic/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/PetClinic/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PetClinic/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/PetClinic/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/navigation.html" beforeDir="false" afterPath="$PROJECT_DIR$/Template/navigation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/signup/signup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/vets/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/Template/vets/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VetsApp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/VetsApp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VetsApp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/VetsApp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/vets/CSS/style.css" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,6 +53,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -70,7 +82,8 @@
       <workItem from="1586506807643" duration="9626000" />
       <workItem from="1586518876918" duration="10821000" />
       <workItem from="1586539547908" duration="349000" />
-      <workItem from="1586610728855" duration="4487000" />
+      <workItem from="1586610728855" duration="6202000" />
+      <workItem from="1586670631972" duration="5949000" />
     </task>
     <task id="LOCAL-00001" summary="some folder moved out">
       <created>1586614793107</created>
@@ -86,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586616911335</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="workspace file">
+      <created>1586623430971</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1586623430971</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,6 +122,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="some folder moved out" />
@@ -109,9 +130,17 @@
     <option name="LAST_COMMIT_MESSAGE" value="workspace file" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="275" y="22" width="796" height="683" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586623958879">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="22" width="796" height="683" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1586623958879" />
     <state x="213" y="119" key="FileChooserDialogImpl" timestamp="1586534128516">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="213" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1586534128516" />
+    <state x="492" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586623244298">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="492" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1586623244298" />
   </component>
 </project>

@@ -21,12 +21,3 @@ def vets(request):
     }
 
     return render(request, 'vets/vets.html', context)
-
-
-def signup(request):
-
-    context = {
-        "name": "SignUP"
-    }
-
-    return render(request, 'signup/signup.html', context)
