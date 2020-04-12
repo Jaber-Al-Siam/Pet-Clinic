@@ -20,8 +20,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b56f2d70-8196-4e3c-8391-99853966d44a" name="Default Changelist" comment="workspace file">
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/PetClinic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PetClinic.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserProfile.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PetClinic/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/PetClinic/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Template/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/navigation.html" beforeDir="false" afterPath="$PROJECT_DIR$/Template/navigation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/shop/adopt.html" beforeDir="false" afterPath="$PROJECT_DIR$/Template/shop/adopt.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/shop/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/shop/buy.html" beforeDir="false" afterPath="$PROJECT_DIR$/Template/shop/buy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/user/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/user/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/user/signup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/vets/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/vets/vets.html" beforeDir="false" afterPath="$PROJECT_DIR$/Template/vets/vets.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserApp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/UserApp/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserApp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/UserApp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserApp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/UserApp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserApp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/UserApp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/user/CSS/user.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/user/CSS/user.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +92,7 @@
       <workItem from="1586518876918" duration="10821000" />
       <workItem from="1586539547908" duration="349000" />
       <workItem from="1586610728855" duration="6202000" />
-      <workItem from="1586670631972" duration="6882000" />
+      <workItem from="1586670631972" duration="41325000" />
     </task>
     <task id="LOCAL-00001" summary="some folder moved out">
       <created>1586614793107</created>
@@ -122,6 +139,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="workspace file" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="0" y="46" key="#Inspections" timestamp="1586728676072">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="0" y="46" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1586728676072" />
     <state x="275" y="22" width="796" height="683" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586623958879">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

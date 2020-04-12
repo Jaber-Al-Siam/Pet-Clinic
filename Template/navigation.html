@@ -1,10 +1,43 @@
-<nav>
+{% comment %}
+<!---nav>
     <ul>
         <li> <a href="{% url 'Home' %}">Home</a> </li>
         <li> <a href="{% url 'Vets' %}">Vets</a> </li>
         <li> <a href="{% url 'Buy' %}">Buy</a> </li>
         <li> <a href="{% url 'Adopt' %}">Adopt</a> </li>
         <li> <a href="{% url 'SignUP' %}">SignUP</a> </li>
-        <li> <a href="{% url 'Login' %}">Login</a> </li>
+        <li> <a href="{% url 'login' %}">Login</a> </li>
+        <li> <a href="{% url 'logout' %}">Logout</a> </li>
     </ul>
-</nav>
+</nav--->
+{% endcomment %}
+
+<header class="site-header">
+  <nav class="navbar navbar-expand-md navbar-dark bg-steel fixed-top">
+    <div class="container">
+      <a class="navbar-brand mr-4" href="/">Pet Clinic</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarToggle">
+        <div class="navbar-nav mr-auto">
+          <a class="nav-item nav-link" href="{% url 'Home' %}">Home</a>
+          <a class="nav-item nav-link" href="{% url 'Vets' %}">Vets</a>
+          <a class="nav-item nav-link" href="{% url 'Buy' %}">Buy</a>
+          <a class="nav-item nav-link" href="{% url 'Adopt' %}">Adopt</a>
+          <a class="nav-item nav-link" href="/about">About</a>
+        </div>
+        <!-- Navbar Right Side -->
+        <div class="navbar-nav">
+          {% if user.is_authenticated %}
+          <a class="nav-item nav-link" href="{% url 'Profile' %}">Profile</a>
+          <a class="nav-item nav-link" href="{% url 'logout' %}">Logout</a>
+          {% else %}
+          <a class="nav-item nav-link" href="{% url 'login' %}">Login</a>
+          <a class="nav-item nav-link" href="{% url 'SignUP' %}">SignUP</a>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>

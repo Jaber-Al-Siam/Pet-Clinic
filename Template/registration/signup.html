@@ -1,0 +1,52 @@
+
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+{% block content %}
+    <div class="content-section">
+        <form method="POST">
+            {% csrf_token %}
+            <fieldset class="form-group">
+                <legend class="border-bottom mb-4">Join Today</legend>
+                {{ form|crispy }}
+            </fieldset>
+            <div class="form-group">
+                <button class="btn btn-outline-info" type="submit">Sign Up</button>
+            </div>
+        </form>
+        <div class="border-top pt-3">
+            <small class="text-muted">
+                Already Have An Account? <a class="ml-2" href="{% url 'login' %}">Sign In</a>
+            </small>
+        </div>
+    </div>
+{% endblock %}
+
+{% comment %}
+<!--{% extends 'base.html' %}-->
+<!--{% load crispy_forms_tags %}-->
+<!--{% block title %} Home {% endblock %}-->
+
+<!--{% block body %}-->
+
+<!--{% block content %}-->
+<!--  <h2>Sign up</h2>-->
+<!--  <form method="post">-->
+<!--    {% csrf_token %}-->
+<!--    {% for field in form %}-->
+<!--      <p>-->
+<!--        {{ field.label_tag }}<br>-->
+<!--        {{ field }}-->
+<!--        {% if field.help_text %}-->
+<!--          <small style="color: grey">{{ field.help_text }}</small>-->
+<!--        {% endif %}-->
+<!--        {% for error in field.errors %}-->
+<!--          <p style="color: red">{{ error }}</p>-->
+<!--    {% endfor %}-->
+<!--    {% endfor %}-->
+<!--    <button type="submit">Sign up</button>-->
+<!--  </form>-->
+<!--{% endblock %}-->
+
+<!--{% endblock %}-->
+
+{% endcomment %}
