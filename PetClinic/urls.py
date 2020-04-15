@@ -18,8 +18,8 @@ from django.urls import path, include
 from VetsApp.views import home
 
 urlpatterns = [
-    path('', home, name="home_page"),
     path('admin/', admin.site.urls),
+    path('', home, name="home_page"),
     path('', include('VetsApp.urls')),
     path('', include('ShopApp.urls')),
     path('', include('UserApp.urls')),
