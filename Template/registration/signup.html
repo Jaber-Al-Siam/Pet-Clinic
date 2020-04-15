@@ -1,6 +1,8 @@
-
 {% extends "base.html" %}
 {% load crispy_forms_tags %}
+
+{% block title %} SignUP {% endblock %}
+
 {% block content %}
     <div class="content-section">
         <form method="POST">
@@ -15,7 +17,7 @@
         </form>
         <div class="border-top pt-3">
             <small class="text-muted">
-                Already Have An Account? <a class="ml-2" href="{% url 'login' %}">Sign In</a>
+                Already Have An Account? <a class="ml-2" href="{% url 'login_page' %}">Sign In</a>
             </small>
         </div>
     </div>

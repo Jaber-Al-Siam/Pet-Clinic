@@ -1,7 +1,7 @@
 from django.contrib import admin
-from .models import BuyTable, AdoptTable
+from .models import BuyOfferTable, AdoptOfferTable
 
 # Register your models here.
 
-admin.site.register(BuyTable)
-admin.site.register(AdoptTable)
+admin.site.register(BuyOfferTable)
+admin.site.register(AdoptOfferTable)

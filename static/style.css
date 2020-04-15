@@ -20,9 +20,10 @@ body {
     border: 2px solid gray;
     border-radius: 5%;
     text-align: center;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     width: 300px;
     padding: 20px;
+    margin: 15px;
 }
 
 .vets_page_design figure img

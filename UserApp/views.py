@@ -3,21 +3,13 @@ from django.contrib.auth import login, authenticate
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from .forms import SignUpForm
+from django.contrib.auth.models import User
 
 
 # Create your views here.
 
-# def signup(request):
-#     obj = SignUPTable.objects.get(id=1)
-#
-#     context = {
-#         "data": "obj"
-#     }
-#
-#     return render(request, 'user/signup.html', context)
 
-
-def signup(request):
+def signup_request(request):
     if request.method == 'POST':
         form = SignUpForm(request.POST)
         if form.is_valid():
@@ -34,14 +26,5 @@ def signup(request):
 
 
 @login_required
-def profile(request):
+def profile_request(request):
     return render(request, 'user/profile.html')
-
-# def login(request):
-#     obj = SignUPTable.objects.get(id=1)
-#
-#     context = {
-#         "data": "obj"
-#     }
-#
-#     return render(request, 'user/login.html', context)

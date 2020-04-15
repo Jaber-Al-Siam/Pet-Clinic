@@ -1,23 +1,23 @@
 from django.shortcuts import render
-from ShopApp.models import BuyTable, AdoptTable
+from ShopApp.models import BuyOfferTable, AdoptOfferTable
 
 
 # Create your views here.
 
 
-def buy(request):
-    '''obj = BuyTable.objects.get(id=1)'''
+def buy_request(request):
+    obj = BuyOfferTable.objects.all()
     context = {
-        "data": "obj"
+        "available_buy_offer": obj
     }
 
     return render(request, 'shop/buy.html', context)
 
 
-def adopt(request):
-    '''obj = AdoptTable.objects.get(id=1)'''
+def adopt_request(request):
+    obj = AdoptOfferTable.objects.all()
     context = {
-        "data": "obj"
+        "available_adopt_offer": obj
     }
 
     return render(request, 'shop/adopt.html', context)
