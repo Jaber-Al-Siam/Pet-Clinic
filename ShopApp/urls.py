@@ -1,7 +1,7 @@
 from django.urls import path
-from .views import buy, adopt
+from .views import buy_request, adopt_request
 
 urlpatterns = [
-    path('buy/', buy, name="Buy"),
-    path('adopt/', adopt, name="Adopt"),
+    path('buy/', buy_request, name="buy_page"),
+    path('adopt/', adopt_request, name="adopt_page"),
 ]
