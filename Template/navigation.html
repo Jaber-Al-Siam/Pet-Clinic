@@ -11,11 +11,14 @@
           <a class="nav-item nav-link" href="{% url 'vets_page' %}">Vets</a>
           <a class="nav-item nav-link" href="{% url 'buy_page' %}">Buy</a>
           <a class="nav-item nav-link" href="{% url 'adopt_page' %}">Adopt</a>
-          <a class="nav-item nav-link" href="/about">About</a>
+          <a class="nav-item nav-link" href="{% url 'about_page' %}">About</a>
         </div>
         <!-- Navbar Right Side -->
         <div class="navbar-nav">
           {% if user.is_authenticated %}
+            {% if user.is_superuser %}
+              <a class="nav-item nav-link" href="{% url 'admin:index' %}">Admin</a>
+            {% endif %}
           <a class="nav-item nav-link" href="{% url 'profile_page' %}">Profile</a>
           <a class="nav-item nav-link" href="{% url 'logout_page' %}">Logout</a>
           {% else %}

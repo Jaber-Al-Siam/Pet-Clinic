@@ -20,27 +20,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b56f2d70-8196-4e3c-8391-99853966d44a" name="Default Changelist" comment="workspace file">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/jaber.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contributing.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/PetClinic/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/PetClinic/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopApp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/ShopApp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PetClinic/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/PetClinic/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Template/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/Template/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Template/registration/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/Template/registration/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Template/registration/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/Template/registration/signup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Template/user/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/Template/user/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserApp/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/UserApp/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserApp/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/UserApp/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserApp/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/UserApp/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Template/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/navigation.html" beforeDir="false" afterPath="$PROJECT_DIR$/Template/navigation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/registration/logged_out.html" beforeDir="false" afterPath="$PROJECT_DIR$/Template/registration/logged_out.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/shop/adopt.html" beforeDir="false" afterPath="$PROJECT_DIR$/Template/shop/adopt.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/shop/buy.html" beforeDir="false" afterPath="$PROJECT_DIR$/Template/shop/buy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/vets/vets.html" beforeDir="false" afterPath="$PROJECT_DIR$/Template/vets/vets.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserApp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/UserApp/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserApp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/UserApp/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserApp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/UserApp/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/user/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/user/1_EmZoedF.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/user/anna.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/user/bunny.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VetsApp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/VetsApp/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/static/favicon.ico" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +108,10 @@
       <workItem from="1587288354419" duration="6982000" />
       <workItem from="1587299345760" duration="439000" />
       <workItem from="1587300035777" duration="6552000" />
-      <workItem from="1590774914137" duration="314000" />
+      <workItem from="1587479067134" duration="12700000" />
+      <workItem from="1587543000156" duration="6988000" />
+      <workItem from="1590785662098" duration="343000" />
+      <workItem from="1590786294164" duration="1769000" />
     </task>
     <task id="LOCAL-00001" summary="some folder moved out">
       <created>1586614793107</created>
@@ -176,10 +174,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1366.728@0.0.1366.728" timestamp="1586771155464" />
-    <state x="492" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586623244298">
+    <state x="492" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587486498288">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="492" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1586623244298" />
+    <state x="492" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1587486498288" />
     <state x="184" y="148" key="refactoring.ChangeSignatureDialog" timestamp="1587244299763">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

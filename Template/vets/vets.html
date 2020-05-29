@@ -11,11 +11,11 @@
         <img src="{{each_vet.Image.url}}">
         <fig-camption>
             <br><br>
-            <strong>{{each_vet.Name}}</strong>
+            Name: <strong>{{each_vet.Name}}</strong>
             {{each_vet.HighestDegree}}, {{each_vet.University}} <br>
             Specialist: Medicine <br>
-            {{each_vet.Address}}<br>
-            {{each_vet.ContactNo}}
+            Address: {{each_vet.Address}}<br>
+            Contact: {{each_vet.ContactNo}}
         </fig-camption>
     </figure>
     {% endfor %}
