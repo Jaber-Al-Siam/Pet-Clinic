@@ -10,7 +10,7 @@ class BuyOfferTable(models.Model):
     Age = models.IntegerField()
     Color = models.CharField(max_length=30)
     Price = models.IntegerField()
-    Image = models.ImageField(default='default.jpj', upload_to='user')
+    Image = models.ImageField(default='default.jpj', upload_to='buy_offer_images')
 
     def __str__(self):
         return self.Name
@@ -22,7 +22,7 @@ class AdoptOfferTable(models.Model):
     Description = models.CharField(max_length=100)
     Age = models.IntegerField()
     Color = models.CharField(max_length=30)
-    Image = models.ImageField(default='default.jpj', upload_to='user')
+    Image = models.ImageField(default='default.jpj', upload_to='adopt_offer_images')
 
     def __str__(self):
         return self.Name
