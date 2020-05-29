@@ -1,7 +1,6 @@
 from django.shortcuts import render
 from ShopApp.models import BuyOfferTable, AdoptOfferTable
 
-
 # Create your views here.
 
 
@@ -12,6 +11,7 @@ def buy_request(request):
     }
 
     return render(request, 'shop/buy.html', context)
+
 
 
 def adopt_request(request):

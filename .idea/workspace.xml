@@ -20,38 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b56f2d70-8196-4e3c-8391-99853966d44a" name="Default Changelist" comment="workspace file">
-      <change beforePath="$PROJECT_DIR$/.idea/PetClinic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PetClinic.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServiceApp/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServiceApp/migrations/0002_auto_20200502_0016.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServiceApp/migrations/0003_auto_20200503_1913.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServiceApp/migrations/0004_auto_20200503_1916.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServiceApp/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Template/shop/service.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PetClinic/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/PetClinic/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PetClinic/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/PetClinic/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopApp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/ShopApp/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopApp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/ShopApp/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopApp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ShopApp/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShopApp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ShopApp/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Template/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/Template/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Template/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Template/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Template/navigation.html" beforeDir="false" afterPath="$PROJECT_DIR$/Template/navigation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Template/registration/logged_out.html" beforeDir="false" afterPath="$PROJECT_DIR$/Template/registration/logged_out.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Template/registration/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/Template/registration/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Template/registration/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/Template/registration/signup.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Template/shop/adopt.html" beforeDir="false" afterPath="$PROJECT_DIR$/Template/shop/adopt.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Template/shop/buy.html" beforeDir="false" afterPath="$PROJECT_DIR$/Template/shop/buy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Template/user/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/Template/user/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Template/vets/vets.html" beforeDir="false" afterPath="$PROJECT_DIR$/Template/vets/vets.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserApp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/UserApp/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserApp/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserApp/migrations/0002_profiletable.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserApp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/UserApp/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserApp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/UserApp/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserApp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/UserApp/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VetsApp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/VetsApp/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VetsApp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/VetsApp/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VetsApp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/VetsApp/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VetsApp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/VetsApp/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/user/PhotoFunia-1583435747.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/user/CSS/user.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/user/CSS/user.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/vets/CSS/vets.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/vets/CSS/vets.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +44,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="Python Script" />
         <option value="HTML File" />
       </list>
     </option>
@@ -140,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586623430971</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="workspace file">
+      <created>1588512315718</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1588512315718</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,12 +141,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="some folder moved out" />
@@ -172,6 +163,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="22" width="848" height="683" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1586771296716" />
+    <state x="690" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588352515963">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="690" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1588352515963" />
+    <state x="614" y="118" key="CommitChangelistDialog2" timestamp="1590776251048">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="614" y="118" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1590776251048" />
     <state x="213" y="119" key="FileChooserDialogImpl" timestamp="1586777331761">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -180,6 +179,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1366.728@0.0.1366.728" timestamp="1586771155464" />
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1590776274758">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1590776274758" />
+    <state x="655" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1590776182935">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="655" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1590776182935" />
     <state x="492" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586623244298">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

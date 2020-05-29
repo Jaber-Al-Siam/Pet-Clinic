@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+
+{% block title %} Services {% endblock %}
+
+{% block content %}
+
+<h1>Service</h1>
+
+<section class="vets_page_design">
+    {% for each_offer in available_service %}
+    <figure>
+        <br><br>
+        <strong>{{each_offer.Name}}</strong><br>
+        {{each_offer.Description}} <br>
+        BDT{{each_offer.Price}}<br>
+        <button class="btn btn-info" type="button" name="button">Get Service</button>
+    </figure>
+    {% endfor %}
+</section>
+
+{% endblock %}

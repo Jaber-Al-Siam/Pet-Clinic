@@ -34,6 +34,7 @@ INSTALLED_APPS = [
     'VetsApp',
     'ShopApp',
     'UserApp',
+    'ServiceApp',
     'crispy_forms',
     'django.contrib.admin',
     'django.contrib.auth',
