@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+
+{% block title %} Buy {% endblock %}
+
+{% block content %}
+
+<section class="vets_page_design">
+    {% for each_offer in available_buy_offer %}
+    <figure>
+        <img src="{{each_offer.Image.url}}">
+        <fig-camption>
+            <br><br>
+            <strong>{{each_offer.Name}}</strong>
+            {{each_offer.Type}} <br>
+            {{each_offer.Description}} <br>
+            {{each_offer.Age}} year <br>
+            {{each_offer.Color}}<br>
+            {{each_offer.Price}}
+        </fig-camption>
+    </figure>
+    {% endfor %}
+</section>
+
+{% endblock %}
+
