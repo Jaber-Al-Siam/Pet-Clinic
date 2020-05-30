@@ -21,7 +21,7 @@ Things to notice before using our website-
 * JavaScript
 * CSS
 # Contributing 
-Here are the contributors for making this website- [Contributing.md] (https://github.com/Niaz-00/Pet-Clinic/blob/master/Contributing.md)
+Here are the contributors for making this website- [Contributing.md] (https://github.com/Jaber-Al-Siam/Pet-Clinic/blob/master/Contributing.md)
 # Acknowledgements
 * Hats off to all the online tutorials who helped us to learn and make this website.
 * Thanks to our course teacher for the directions.
