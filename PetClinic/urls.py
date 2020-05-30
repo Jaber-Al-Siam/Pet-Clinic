@@ -23,4 +23,5 @@ urlpatterns = [
     path('', include('VetsApp.urls')),
     path('', include('ShopApp.urls')),
     path('', include('UserApp.urls')),
+    path('', include('ServiceApp.urls')),
 ]

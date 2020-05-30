@@ -19,32 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b56f2d70-8196-4e3c-8391-99853966d44a" name="Default Changelist" comment="workspace file">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/jaber.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/PetClinic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PetClinic.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PetClinic/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/PetClinic/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopApp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/ShopApp/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Template/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/Template/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Template/navigation.html" beforeDir="false" afterPath="$PROJECT_DIR$/Template/navigation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Template/registration/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/Template/registration/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Template/registration/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/Template/registration/signup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Template/user/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/Template/user/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserApp/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/UserApp/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserApp/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/UserApp/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserApp/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/UserApp/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserApp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/UserApp/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserApp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/UserApp/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserApp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/UserApp/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/user/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/user/1_EmZoedF.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/user/anna.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/user/bunny.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/static/favicon.ico" afterDir="false" />
-    </list>
+    <list default="true" id="b56f2d70-8196-4e3c-8391-99853966d44a" name="Default Changelist" comment="workspace file" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,6 +30,7 @@
       <list>
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -62,6 +38,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1aLF0WLrjX2uLWKtSNecQXo53l1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -156,12 +133,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="some folder moved out" />
