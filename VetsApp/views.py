@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from .models import Vets
+from .models import VetsInfoTable
 
 
 # Create your views here.
@@ -13,11 +13,11 @@ def home(request):
     return render(request, 'index.html', context)
 
 
-def vets(request):
-    obj = Vets.objects.get(id=1)
+def view_vets(request):
+    obj = VetsInfoTable.objects.all()
 
     context = {
-        "data": obj
+        "vets_data": obj
     }
 
     return render(request, 'vets/vets.html', context)

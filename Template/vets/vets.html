@@ -1,17 +1,25 @@
 {% extends 'base.html' %}
+{% load crispy_forms_tags %}
 
 {% block title %} Vets {% endblock %}
 
 {% block content %}
 
-<h1>List of our vets</h1>
-
-<h1>{{data.Name}}</h1>
-<h1>{{data.ContactNo}}</h1>
-<h1>{{data.Address}}</h1>
-<h1>{{data.University}}</h1>
-<h1>{{data.HighestDegree}}</h1>
-<h1>{{data.Image}}</h1>
+<section class="vets_page_design">
+    {% for each_vet in vets_data %}
+    <figure>
+        <img src="{{each_vet.Image.url}}">
+        <fig-camption>
+            <br><br>
+            <strong>{{each_vet.Name}}</strong>
+            {{each_vet.HighestDegree}}, {{each_vet.University}} <br>
+            Specialist: Medicine <br>
+            {{each_vet.Address}}<br>
+            {{each_vet.ContactNo}}
+        </fig-camption>
+    </figure>
+    {% endfor %}
+</section>
 
 {% endblock %}
 

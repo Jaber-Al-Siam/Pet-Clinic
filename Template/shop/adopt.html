@@ -1,9 +1,25 @@
 {% extends 'base.html' %}
+{% load crispy_forms_tags %}
 
-{% block title %} Home {% endblock %}
+{% block title %} Adopt {% endblock %}
 
 {% block content %}
 
-<h1>Adopt</h1>
+<section class="vets_page_design">
+    {% for each_offer in available_adopt_offer %}
+    <figure>
+        <img src="{{each_offer.Image.url}}">
+        <fig-camption>
+            <br><br>
+            <strong>{{each_offer.Name}}</strong>
+            {{each_offer.Type}} <br>
+            {{each_offer.Description}} <br>
+            {{each_offer.Age}} year <br>
+            {{each_offer.Color}}<br>
+        </fig-camption>
+    </figure>
+    {% endfor %}
+</section>
 
 {% endblock %}
+

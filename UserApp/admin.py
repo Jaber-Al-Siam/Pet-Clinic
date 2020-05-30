@@ -1,7 +1,6 @@
 from django.contrib import admin
-from .models import SignUPTable, ProfileTable
+from .models import UserInfoTable
 
 # Register your models here.
 
-admin.site.register(SignUPTable)
-admin.site.register(ProfileTable)
+admin.site.register(UserInfoTable)
