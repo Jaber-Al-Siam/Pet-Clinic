@@ -1,7 +1,7 @@
 # Pet-Clinic
 Pet Clinic is a website for providing online veterinary services and other services for pets.
 # Getting Started
-Go visit our website - (http://petclinictester.herokuapp.com/) 
+[//]: # (Go visit our website - (http://petclinictester.herokuapp.com/))
 # Prerequisites
 Things to notice before using our website-
 - Active internet connection.
